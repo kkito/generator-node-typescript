@@ -1,14 +1,14 @@
 {
-  "name": "generator-node-typescript",
-  "version": "4.2.0",
-  "description": "A minimal Yeoman Generator for creating NodeJS modules using TypeScript",
+  "name": "generator-node-typescript-webpack",
+  "version": "0.0.2",
+  "description": "A minimal Yeoman Generator for creating NodeJS modules using TypeScript and webpack it",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "ospatil/generator-node-typescript",
+  "repository": "kkito/generator-node-typescript",
   "author": {
-    "name": "Omkar Patil",
-    "email": "ospatil@gmail.com",
-    "url": "https://github.com/ospatil"
+    "name": "kkito shen",
+    "email": "kkitokkito@gmail.com",
+    "url": "https://github.com/kkito"
   },
   "scripts": {
     "pretest": "eslint .",
@@ -19,7 +19,10 @@
   ],
   "keywords": [
     "yeoman-generator",
+    "yeoman-generator-webpack",
     "typescript",
+    "babel",
+    "webpack",
     "nodejs"
   ],
   "dependencies": {
