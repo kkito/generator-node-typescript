@@ -4,8 +4,3 @@ node_js:
   - 'node'
 script:
   - npm run test
-deploy:
-  - npm publish
-  branches:
-    only:
-    - master
