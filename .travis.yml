@@ -1,6 +1,15 @@
 sudo: false
 language: node_js
 node_js:
-  - 'node'
+- node
 script:
-  - npm run test
+- npm run test
+deploy:
+  provider: npm
+  email: kkitokkito@gmail.com
+  api_key:
+    secure: a2rVRGFjmbd8WkOpYxb/md8vyUT+rrFAOOi/cpAcGJbkt6ekpAh6Tlo1Cxes+ImFm40FPzSPEZkq5zSmCdfSNyTsQORt4yo0oswfLJtsWrDZPjdkVCVbf1qqNAyZKZgQMUPKGjogZMiRo5drCsUqt1b+76nw75MkDgGv4sceclZnILAIHg8GcPcV+j0NmFjDiVQofKa9ujtNK03JQIN3dHvBXAOuwHxV4AIjs98UTlumr9R23AaRHnUifW+tL/hIaC8gcHxtl/re49ZJfejJnInmGjztcAlpwcmN+mxYXlxa19cwR3hF+qCTv88GVJ3uqCeCn3HPEsgDovsFfwZq47xsOx8nNcsvxKATkyhtvlK63epfyeMfg16COMEof1eY+w6ZAEVDYNFrKJ4nrlFJ0edy7vb/kW8zduNoFZ7arIGz7y9PndDkl00RUUFaUUKk5p5/3JTZr3IWW4xULfa0tsY+QVnPBCzznWl4g1GQYiM0AQDF6XWhlwRGtqau8SyERx/HLs7n6UKGDdCIEuZK4RGWIcFoL5BFo9fiAwXtJFYUeuQ/HDDK5a8T9yjrV1dRpSW6fvBwdF4TUKeH3PmeE9aco6UV2nbe4mSAL4Ot+BYoihKM99M/fWMi8B6BFcI5n7Hb6MDJDN8Cy3s9s0exPNcLdHPbhzwubtMg0txsoDg=
+  on:
+    tags: true
+    repo: kkito/generator-node-typescript
+    branch: master
