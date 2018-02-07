@@ -128,6 +128,14 @@ module.exports = Generator.extend({
         this.templatePath('npmignore'),
         this.destinationPath('.npmignore')
       );
+      this.fs.copy(
+        this.templatePath('.babelrc'),
+        this.destinationPath('.babelrc')
+      );
+      this.fs.copy(
+        this.templatePath('webpack.config.js'),
+        this.destinationPath('webpack.config.js')
+      );
       this.fs.copyTpl(
         this.templatePath('LICENSE'),
         this.destinationPath('LICENSE'),

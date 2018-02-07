@@ -1,6 +1,6 @@
 {
   "name": "generator-node-typescript-webpack",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "A minimal Yeoman Generator for creating NodeJS modules using TypeScript and webpack it",
   "license": "MIT",
   "main": "app/index.js",
