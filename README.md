@@ -4,7 +4,7 @@
 
 it forked from [generator-node-typescript](https://github.com/ospatil/generator-node-typescript)
 
-It is a scaffold not only can make a ts project to nodejs , but output a browser usage js also.
+It is a scaffold not only can make a ts project to nodejs , but output a js file for browser use also.
 
 ## Usage
 
