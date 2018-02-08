@@ -12,7 +12,7 @@ Install `yeoman` globally
 Install `generator-node-typescript-webpack` globally.
 
 ```sh
-$npm i -g yeoman
+$npm i -g yo
 $npm i -g generator-node-typescript-webpack
 ```
 
@@ -30,17 +30,17 @@ $yo node-typescript-webpack
 ```
 
 Build project 
-```
+```sh
 $npm run build
 ```
 
 Run Test
-```
+```sh
 $npm run test
 ```
 
 Run Browser Demo 
-```
+```sh
 $npm run demo
 ```
 
