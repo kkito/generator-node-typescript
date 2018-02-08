@@ -1,4 +1,4 @@
-# TypeScript NodeJS Generator With Webpack & babel support
+# TypeScript NodeJS Generator With Webpack & babel , output js file support browser
 [![Build Status](https://travis-ci.org/kkito/generator-node-typescript.svg?branch=master)](https://travis-ci.org/kkito/generator-node-typescript)
 [![npm version](https://badge.fury.io/js/generator-node-typescript-webpack.svg)](https://badge.fury.io/js/generator-node-typescript-webpack)
 
