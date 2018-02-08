@@ -109,6 +109,10 @@ module.exports = Generator.extend({
         this.destinationPath('README.md')
       );
       this.fs.copy(
+        this.templatePath('demo/index.html'),
+        this.destinationPath('demo/index.html')
+      );
+      this.fs.copy(
         this.templatePath('_tsconfig.json'),
         this.destinationPath('tsconfig.json')
       );
