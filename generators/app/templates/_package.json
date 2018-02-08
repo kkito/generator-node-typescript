@@ -22,6 +22,7 @@
     "prebuild":
       "npm run clean && npm run format && npm run lint && echo Using TypeScript && tsc --version",
     "build": "tsc --pretty && webpack",
+    "demo": "npm run build && cp demo/index.html dist/ && http-server dist -o",
     "test": "jest",
     "coverage": "jest --coverage",
     "watch": "npm run build -- --watch",
@@ -35,6 +36,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-2": "^6.24.1",
     "coveralls": "^2.0.0",
+    "http-server": "^0.11.1",
     "jest": "^22.0.4",
     "jest-environment-node-debug": "^2.0.0",
     "prettier": "^1.5.2",
