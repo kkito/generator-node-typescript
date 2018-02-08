@@ -29,6 +29,21 @@ Run the generator.
 $yo node-typescript-webpack
 ```
 
+Build project 
+```
+$npm run build
+```
+
+Run Test
+```
+$npm run test
+```
+
+Run Browser Demo 
+```
+$npm run demo
+```
+
 more details in [generator-node-typescript](https://github.com/ospatil/generator-node-typescript)
 
 ## License
