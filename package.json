@@ -1,6 +1,6 @@
 {
   "name": "generator-node-typescript-webpack",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A minimal Yeoman Generator for creating NodeJS modules using TypeScript and webpack it",
   "license": "MIT",
   "main": "app/index.js",
@@ -28,8 +28,8 @@
   "dependencies": {
     "chalk": "^2.0.1",
     "lodash": "^4.17.4",
-    "shelljs": "^0.7.8",
-    "yeoman-generator": "^1.1.1",
+    "shelljs": "^0.8.1",
+    "yeoman-generator": "^2.0.2",
     "yosay": "^2.0.0"
   },
   "devDependencies": {
