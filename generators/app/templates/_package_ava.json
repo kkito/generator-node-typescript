@@ -20,6 +20,7 @@
     "prepare": "npm run build",
     "prebuild": "npm run clean && npm run format && npm run lint && echo Using TypeScript && tsc --version",
     "build": "tsc --pretty && tsc -p tsconfig.test.json --pretty",
+    "dev": "cp demo/index.html dist/ && webpack-dev-server --progress --open-page dist/",
     "demo": "npm run build && cp demo/index.html dist/ && http-server dist -o",
     "test": "npm run clean && tsc -p tsconfig.test.json --pretty && nyc --exclude \"**/*-spec.js\" ava \"**/*-spec.js\" --verbose",
     "coverage": "nyc report --reporter=lcov --reporter=text --reporter=html",
@@ -47,7 +48,8 @@
     "tslint": "^5.0.0",
     "tslint-config-prettier": "^1.1.0",
     "typescript": "^2.3.0",
-    "webpack": "^3.10.0"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
   },
   "engines": {
     "node": ">=6.0.0"

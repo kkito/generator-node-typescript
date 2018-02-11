@@ -16,6 +16,7 @@
     "prepare": "npm run build",
     "build":
       "npm run format && npm run clean && npm run lint && echo Using TypeScript && tsc --version && tsc --pretty",
+    "dev": "cp demo/index.html dist/ && webpack-dev-server --progress --open-page dist/",
     "demo": "npm run build && cp demo/index.html dist/ && http-server dist -o",
     "test":
       "npm run build && mocha --compilers ts:ts-node/register --recursive \"test/**/*-spec.ts\"",
@@ -44,7 +45,8 @@
     "tslint-config-prettier": "^1.1.0",
     "typescript": "^2.3.0",
     "coveralls": "^2.0.0",
-    "webpack": "^3.10.0"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
   },
   "engines": {
     "node": ">=6.0.0"
