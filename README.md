@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/kkito/generator-node-typescript.svg?branch=master)](https://travis-ci.org/kkito/generator-node-typescript)
 [![npm version](https://badge.fury.io/js/generator-node-typescript-webpack.svg)](https://badge.fury.io/js/generator-node-typescript-webpack)
 [![coverage](https://codecov.io/gh/kkito/generator-node-typescript/branch/master/graph/badge.svg)](https://codecov.io/gh/kkito/generator-node-typescript)
+[![dependencies](https://david-dm.org/kkito/generator-node-typescript.svg)](https://david-dm.org/kkito/generator-node-typescript)
 
 
 it forked from [generator-node-typescript](https://github.com/ospatil/generator-node-typescript)
