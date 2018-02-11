@@ -44,7 +44,7 @@ $npm run test
 
 Run Browser Demo 
 ```sh
-$npm run demo
+$npm run dev
 ```
 
 more details in [generator-node-typescript](https://github.com/ospatil/generator-node-typescript)
