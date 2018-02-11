@@ -4,10 +4,11 @@ node_js:
 - node
 install:
 - npm install -g codecov
+- npm install -g istanbul
 script:
 - npm run test
 - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
-- codecov
+- codecov --token=69a600d6-9548-4591-a229-91070f5f05dd
 deploy:
   provider: npm
   email: kkitokkito@gmail.com
