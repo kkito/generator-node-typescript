@@ -3,7 +3,7 @@ language: node_js
 node_js:
 - node
 install:
-- npm install
+- yarn
 - npm install -g codecov
 - npm install -g istanbul
 script:
