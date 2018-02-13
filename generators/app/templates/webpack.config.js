@@ -1,4 +1,5 @@
 const webpack = require("webpack");
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   devtool: 'inline-source-map',
@@ -24,6 +25,9 @@ module.exports = {
     new webpack.optimize.UglifyJsPlugin({
       include: /\.min\.js$/,
       minimize: true
-    })
+    }) , 
+    new CopyWebpackPlugin([
+      { from: 'demo/index.html', to: 'dist/' }
+    ])
   ]
 }
